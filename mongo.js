@@ -100,14 +100,14 @@ db.employee.find({$nor:[
 
 
 
-db.employee.find(
-    {
-       department:{
-        $not{$eq:"HR"}
-    }//lessthan equal
-    }
+// db.employee.find(
+//     {
+//        department:{
+//         $not{$eq:"HR"}
+//     }//lessthan equal
+//     }
    
-)
+// )
 
 
 
@@ -117,6 +117,14 @@ db.employee.find(
     }
    
 )
+
+
 //$exists
 //eq means equal
 //$in and $nin
+
+db.employee.updateMANY({},{ponts:0})
+
+//rename ,increment,unset
+
+db.employee.update()
