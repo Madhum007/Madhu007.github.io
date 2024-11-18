@@ -11,18 +11,30 @@
         table tr td{
             padding: 10px;
         }
-
+        #aboutp{
+            display: none;
+        }
+#about:hover{
+  background-color: aliceblue;
+}
         .project:hover{
            background-color: rgb(103, 158, 231);
            cursor: pointer;
            color: white;
         }
         .project{
-            height: 300px;
+            height: 320px;
         }
-        h1,h2,h3{
+        h1,h2,h3,h4{
             color: dimgray;
         }
+
+        p {
+    font-size: 1rem;
+    color: #555; /* Slightly lighter text for paragraphs */
+    margin-bottom: 1.5rem; /* Space below paragraphs */
+    text-align: justify; /* Justified text alignment */
+}
     </style>
     <script>
             const mobileMenu = document.getElementById('mobile-menu');
@@ -41,7 +53,7 @@ mobileMenu.addEventListener('click', () => {
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="Contact.html" target="_blank">Contact</a></li>
-                <li><a href="Profile.html">Profile</a></li>
+                <!-- <li><a href="Profile.html">Profile</a></li> -->
             </ul>
             <div class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
@@ -53,10 +65,18 @@ mobileMenu.addEventListener('click', () => {
 
     <section id="about">
         <h1>About Me</h1>
-        <p>Welcome to my portfolio! I am a passionate developer with a love for creating web applications.</p>
-  
-    </section>
-
+       <p>Hello! I'm a passionate Full-Stack Developer in building and maintaining dynamic web applications. 
+      Throughout my career, I’ve developed a strong skill set in both front-end and back-end technologies, allowing me to create seamless, user-friendly, and robust applications.</p> 
+     </section>
+<section id="aboutp">
+    <h4>Key Skills:</h4>
+    <hr>
+    <h4>Front-End Development: </h4> <p>Proficient in HTML, CSS, JavaScript, and modern frameworks such as React, and Angular. 
+        I focus on creating responsive and engaging user interfaces with smooth user experiences.</p>
+        <h4>Back-End Development:</h4><p> Experienced with server-side programming using Node.js and Dot Net Technologies. I design efficient and scalable APIs, manage databases, and implement business logic.</p>
+        <h4>Database Management:</h4><p> Skilled in working with both SQL (MySQL, SQLcServer) and NoSQL (MongoDB) databases.</p>
+        
+</section>
     <section id="projects">
         <h1>My Projects</h1>
         <div class="project-grid">
