@@ -1,139 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <style>
-        table tr td{
-            padding: 10px;
-        }
-        #aboutp{
-            display: none;
-        }
-#about:hover{
-  background-color: aliceblue;
-}
-        .project:hover{
-           background-color: rgb(103, 158, 231);
-           cursor: pointer;
-           color: white;
-        }
-        .project{
-            height: 320px;
-        }
-        h1,h2,h3,h4{
-            color: dimgray;
-        }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/ball.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-row"> 
+        <div class="box"><h1>Madhu Mandaloju</h1></div>
+        <div class="box">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
 
-        p {
-    font-size: 1rem;
-    color: #555; /* Slightly lighter text for paragraphs */
-    margin-bottom: 1.5rem; /* Space below paragraphs */
-    text-align: justify; /* Justified text alignment */
-}
-    </style>
-    <script>
-            const mobileMenu = document.getElementById('mobile-menu');
-const navLinks = document.querySelector('.nav-links');
-
-mobileMenu.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-});
-    </script>
-
-    <header>
-        <nav>
-            <div class="logo">My Portfolio</div>
-            <ul class="nav-links">
-               
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="Contact.html" target="_blank">Contact</a></li>
-                <!-- <li><a href="Profile.html">Profile</a></li> -->
-            </ul>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h1>About Me</h1>
-       <p>Hello! I'm a passionate Full-Stack Developer in building and maintaining dynamic web applications. 
-      Throughout my career, I’ve developed a strong skill set in both front-end and back-end technologies, allowing me to create seamless, user-friendly, and robust applications.</p> 
-     </section>
-<section id="aboutp">
-    <h4>Key Skills:</h4>
-    <hr>
-    <h4>Front-End Development: </h4> <p>Proficient in HTML, CSS, JavaScript, and modern frameworks such as React, and Angular. 
-        I focus on creating responsive and engaging user interfaces with smooth user experiences.</p>
-        <h4>Back-End Development:</h4><p> Experienced with server-side programming using Node.js and Dot Net Technologies. I design efficient and scalable APIs, manage databases, and implement business logic.</p>
-        <h4>Database Management:</h4><p> Skilled in working with both SQL (MySQL, SQLcServer) and NoSQL (MongoDB) databases.</p>
-        
-</section>
-    <section id="projects">
-        <h1>My Projects</h1>
-        <div class="project-grid">
-            <a style="text-decoration: none;color: black;" href="https://tdiagnostics.telangana.gov.in/LogIn.aspx" target="_blank">
-            <div class="project" >
-                <h2>Telangana Diagnostics</h2>
-                <p>The main aim of this project to create a comprehensive and efficient software solution for  the overall management and delivery of healthcare services within a healthcare organization or system.</p>
-                <p>The primary objectives can vary based on the specific goals and requirements of the healthcare organization implementing the system.</p>
-            </div>
-        </a>
-        <a style="text-decoration: none;color: black;" href="/madhum007.github.io/Hims.html"  target="_blank">
-           
-            <div class="project">
-                <h2>Bhishak Health Care</h2>
-               <p>The main aim of this project to create a comprehensive and efficient software solution for  the overall management and delivery of healthcare services within a healthcare organization or system.</p>
-                <p>The primary objectives can vary based on the specific goals and requirements of the healthcare organization implementing the system.</p>
-           
-            </div>
-          </a>
-          <a style="text-decoration: none;color: black;" href="http://45.119.114.151:75/swagger/index.html" target="_blank">
-            <div class="project" >
-                <h2>Telangana Diagnostics Mobile API</h2>
-                <p>The main aim of this project to create a comprehensive and efficient software solution for  the overall management and delivery of healthcare services within a healthcare organization or system.</p>
-                </div>
-        </a>
-        <a style="text-decoration: none;color: black;" href="MachineIntegration.html">
-            <div class="project" >
-                <h2>Machine Inegration</h2>
-                <p>The main aim of this project to create a comprehensive and efficient software solution for  the overall management and delivery of healthcare services within a healthcare organization or system.</p>
-                <p>The primary objectives can vary based on the specific goals and requirements of the healthcare organization implementing the system.</p>
-            </div>
-        </a>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-    <section id="contact">
-        <h3 style="color: dimgrey;">Follow Me</h3>
-        <hr>
+      <div class="row" id="home">
+        <div style="display: flex;padding-top: 50px;">
+          <div class="box">
+            <h1>Full Stack Developer</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
+              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
+              perferendis assumenda?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              neque est nihil ipsum error. Deserunt voluptas explicabo ea eum
+              quasi. Rem nisi molestias quia nesciunt incidunt numquam fugiat
+              perferendis assumenda?
+            </p>
+            <button>Button 1</button>
+            <button>Button 1</button>
+          </div>
+          <div class="box">
+            <img src="https://picsum.photos/id/2/400/400" />
+          </div>
+        </div>
+      </div>
+
+      <div id="projects" class="row" style="background-color: lightcoral">
+        <h1>Projects</h1>
+        <div style="display: flex">
+          <div class="box">
+           
+            <h3>Telangana Diagnostics Mobile API</h3>
+            <p>The main aim of this project to create a comprehensive and efficient software solution for  the overall management and delivery of healthcare services within a healthcare organization or system.</p>
+           
+          </div>
+
+          <div class="box">
+           
+            <h3>Machine Inegration</h3>
+            <p>The main aim of this project to create a comprehensive and efficient software solution for  the overall management and delivery of healthcare services within a healthcare organization or system.</p>
+            <p>The primary objectives can vary based on the specific goals and requirements of the healthcare organization implementing the system.</p>
        
-        <table>
-            <tr>
-                <td>
-                    <a href="https://www.facebook.com/YourPage" target="_blank" title="Facebook">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="width: 30px; height: 30px;">
-                       
-                    </a>
-                </td><td> 
-                    <a href="https://www.instagram.com/YourUsername" target="_blank" title="Instagram">
-                        <h4>&nbsp; <a href="https://www.facebook.com/YourPage" target="_blank">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="Instagram" style="width: 30px; height: 30px;">
-                    </a>
-                </td>
-            </tr>
-            
-        </table>
-       
-    
-       
-    </section>
-  
+          </div>
+
+          <div class="box">
+            <h3>Telangana Diagnostics </h3>
+            <p>The main aim of this project to create a comprehensive and efficient software solution for  the overall management and delivery of healthcare services within a healthcare organization or system.</p>
+           
+          </div>
+        </div>
+      </div>
+      <div id="services" class="row" style="background-color: lightblue">
+        <h1>Services</h1>
+        <div style="display: flex">
+          <div class="box">
+            <h3>Web App Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+          </div>
+
+          <div class="box">
+            <h3>Mobile App Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+          </div>
+
+          <div class="box">
+            <h3>Backend Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="row">
+        <h1>About</h1>
+        
+          <p>I have 3 Years of experience in designing and developing web applications using .Net Technologies and Angular. Proficient in front-end and back-end technologies, adept at creating responsive, scalable, and user-friendly software solutions.</p>
+          <p>	Good experience in C#.Net, ASP.Net, Web Api’s/ ASP.Net Core Web Api’s, MVC/MVC Core, ADO.Net, MSSQL & MySQL.</p>
+          <p>Good experience in Front-End Technologies in Angular (2+), Html, CSS, Bootstrap, JavaScript, TypeScript, jQuery.</p>
+          
+        
+        <h2>Skills</h2>
+        <P>ASP.NET,ASP.NET WEB API,Nodejs,Angular,Reactjs,MS SQL, MYSQL,</P>
+        <p style="display: none;">Display the logo of all the technologies you know.</p>
+      </div>
+      <div
+        id="contact"
+        class="row"
+        style="background-color: lightgoldenrodyellow"
+      >
+        <h1>Contact</h1>
+        <div style="display: flex">
+         
+
+          <div class="box">
+            <h3>Contact Form</h3>
+            <p>
+             <input type="text" placeholder="Enter Name">
+            </p>
+            <p>
+              <input type="email" placeholder="Enter Email">
+             </p>
+             <p>
+              <textarea rows="10" cols="60" placeholder="Enter message"></textarea>
+             </p>
+             <button>Send</button>
+          </div>
+
+          <div class="box">
+            <h3>M Madhubabu</h3>
+            <p>
+              <b>Address: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
+              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
+              Perspiciatis, ab.
+            </p>
+            <p>
+              <b>Email Address: </b>sample@email.com
+            </p>
+            <p>
+              <b>Phone Number: </b>+91 343 445 6789
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">@copyright 2024. All rights reserved.</div>
+    </div>
+  </body>
+</html>
